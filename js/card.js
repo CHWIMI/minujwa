@@ -25,7 +25,7 @@ const CardMode = (() => {
           <div style="text-align: center; padding: 40px 20px;">
             <p style="font-size: 1.1rem; line-height: 1.6; color: var(--navy); margin-bottom: 20px;">
               이벤트 기획, 웹사이트 개발, 이스터에그 디자인 등<br>
-              다양한 역량을 쏟아부은 <strong>메인 프로젝트</strong>입니다.
+              다양한 역량을 쏟아부은 <strong>사이드 프로젝트</strong>입니다.
             </p>
             <p style="font-size: 0.95rem; color: #666; margin-bottom: 30px;">
               ※ 내용이 방대하여 카드 모드에서는 요약만 제공됩니다.
