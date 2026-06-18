@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="에피드게임즈 조직문화 담당자 지원 포트폴리오">
+  <title>에피드게임즈 조직문화 담당자 지원 포트폴리오</title>
+  <!-- Open Graph (OG) 공유 미리보기 태그 -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="에피드게임즈 조직문화 담당자 지원 — 좌민우">
+  <meta property="og:description" content="좌민우 자기소개서">
+  <meta property="og:url" content="https://chwimi.github.io/minujwa/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/map.css">
+  <link rel="stylesheet" href="css/modal.css">
+  <link rel="stylesheet" href="css/card.css">
+  <link rel="stylesheet" href="css/document.css">
+  <link rel="stylesheet" href="css/mobile.css">
+</head>
+
+<body>
+
+
+  <!-- ═══ 모드 전환 버튼 (게임 설정 스타일) ═══ -->
+  <nav class="mode-switcher" id="mode-switcher" aria-label="보기 모드 전환">
+    <button class="mode-btn active" data-mode="map" aria-label="맵 모드">
+      <span class="mode-icon">🗺️</span>
+      <span class="mode-label">맵</span>
+    </button>
+    <button class="mode-btn" data-mode="card" aria-label="카드 모드">
+      <span class="mode-icon">🃏</span>
+      <span class="mode-label">카드</span>
+    </button>
+    <button class="mode-btn" data-mode="document" aria-label="문서 모드">
+      <span class="mode-icon">📄</span>
+      <span class="mode-label">문서</span>
+    </button>
+  </nav>
+
+  <!-- ═══ MODE 1: 메인 맵 ═══ -->
+  <section id="main-map" class="mode-section active">
+    <div class="map-bg">
+      <div class="ground"></div>
+
+      <!-- 이파리 데코레이션 (왼쪽 / 오른쪽 아래) -->
+      <svg class="bg-leaf bg-leaf-left" viewBox="0 0 300 600" xmlns="http://www.w3.org/2000/svg">
+        <!-- stem -->
+        <path d="M 30,550 Q 120,350 80,50" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="6"
+          stroke-linecap="round" />
+        <!-- leaf 1 -->
+        <path d="M 60,430 C 10,410 0,330 50,320 C 80,350 80,400 60,430 Z" fill="none" stroke="rgba(255,255,255,0.18)"
+          stroke-width="5" stroke-linejoin="round" />
+        <path d="M 60,430 Q 35,365 50,320" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="3" />
+        <!-- leaf 2 -->
+        <path d="M 85,320 C 140,310 160,240 110,220 C 80,240 80,290 85,320 Z" fill="none"
+          stroke="rgba(255,255,255,0.18)" stroke-width="5" stroke-linejoin="round" />
+        <path d="M 85,320 Q 110,265 110,220" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="3" />
+        <!-- leaf 3 -->
+        <path d="M 85,210 C 35,190 30,120 75,110 C 100,135 100,185 85,210 Z" fill="none" stroke="rgba(255,255,255,0.18)"
+          stroke-width="5" stroke-linejoin="round" />
+        <path d="M 85,210 Q 60,155 75,110" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="3" />
+        <!-- leaf 4 -->
+        <path d="M 80,80 C 70,30 90,10 100,20 C 110,40 100,70 80,80 Z" fill="none" stroke="rgba(255,255,255,0.18)"
+          stroke-width="5" stroke-linejoin="round" />
+        <path d="M 80,80 Q 88,45 100,20" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="3" />
+      </svg>
+
+      <svg class="bg-leaf bg-leaf-right" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+        <!-- stem -->
+        <path d="M 270,270 L 190,190" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="6"
+          stroke-linecap="round" />
+        <!-- main large leaf -->
+        <path d="M 190,190 C 130,230 60,190 40,110 C 110,80 180,120 190,190 Z" fill="none"
+          stroke="rgba(255,255,255,0.18)" stroke-width="5" stroke-linejoin="round" />
+        <path d="M 190,190 Q 115,145 40,110" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="3" />
+        <!-- veins -->
+        <path d="M 140,160 Q 150,130 165,125" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="3"
+          stroke-linecap="round" />
+        <path d="M 115,145 Q 110,120 120,110" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="3"
+          stroke-linecap="round" />
+        <path d="M 90,130 Q 80,105 85,95" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="3"
+          stroke-linecap="round" />
+        <path d="M 140,160 Q 120,180 115,195" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="3"
+          stroke-linecap="round" />
+        <path d="M 115,145 Q 90,160 85,170" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="3"
+          stroke-linecap="round" />
+      </svg>
+
+
+
+      <!-- 데스크톱용 경로 -->
+      <svg class="map-path-desktop"
+        style="position:absolute; inset:0; z-index:1; width:100%; height:100%; pointer-events:none;">
+        <line x1="24%" y1="35%" x2="26%" y2="72%" stroke="#ffffff" stroke-width="6" stroke-dasharray="12 12"
+          stroke-linecap="round" opacity="0.5" />
+        <line x1="26%" y1="72%" x2="50%" y2="32%" stroke="#ffffff" stroke-width="6" stroke-dasharray="12 12"
+          stroke-linecap="round" opacity="0.5" />
+        <line x1="50%" y1="32%" x2="74%" y2="72%" stroke="#ffffff" stroke-width="6" stroke-dasharray="12 12"
+          stroke-linecap="round" opacity="0.5" />
+        <line x1="74%" y1="72%" x2="76%" y2="35%" stroke="#ffffff" stroke-width="6" stroke-dasharray="12 12"
+          stroke-linecap="round" opacity="0.5" />
+      </svg>
+
+      <!-- 모바일용 경로 -->
+      <svg class="map-path-mobile"
+        style="position:absolute; inset:0; z-index:1; width:100%; height:100%; pointer-events:none;">
+        <line x1="22%" y1="46%" x2="22%" y2="76%" stroke="#ffffff" stroke-width="6" stroke-dasharray="10 10"
+          stroke-linecap="round" opacity="0.5" />
+        <line x1="22%" y1="76%" x2="50%" y2="30%" stroke="#ffffff" stroke-width="6" stroke-dasharray="10 10"
+          stroke-linecap="round" opacity="0.5" />
+        <line x1="50%" y1="30%" x2="78%" y2="76%" stroke="#ffffff" stroke-width="6" stroke-dasharray="10 10"
+          stroke-linecap="round" opacity="0.5" />
+        <line x1="78%" y1="76%" x2="78%" y2="46%" stroke="#ffffff" stroke-width="6" stroke-dasharray="10 10"
+          stroke-linecap="round" opacity="0.5" />
+      </svg>
+
+      <!-- 덤불(마리모) -> 이파리 장식 -->
+      <svg class="bush bush-1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+        <!-- Stem -->
+        <path d="M 30,90 Q 60,70 50,20" fill="none" stroke="rgba(255,255,255,0.22)" stroke-width="4.5"
+          stroke-linecap="round" />
+        <!-- Leaf 1 -->
+        <path d="M 45,70 C 15,75 5,55 30,45 C 45,50 50,65 45,70 Z" fill="none" stroke="rgba(255,255,255,0.22)"
+          stroke-width="3.5" stroke-linejoin="round" />
+        <path d="M 45,70 Q 31,60 30,45" fill="none" stroke="rgba(255,255,255,0.22)" stroke-width="2" />
+        <!-- Leaf 2 (Tip) -->
+        <path d="M 50,20 C 40,-10 60,-20 70,-10 C 80,10 65,20 50,20 Z" fill="none" stroke="rgba(255,255,255,0.22)"
+          stroke-width="3.5" stroke-linejoin="round" />
+        <path d="M 50,20 Q 60,0 70,-10" fill="none" stroke="rgba(255,255,255,0.22)" stroke-width="2" />
+      </svg>
+
+      <svg class="bush bush-2" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+        <!-- stem -->
+        <path d="M 70,70 L 40,40" fill="none" stroke="rgba(255,255,255,0.22)" stroke-width="4" stroke-linecap="round" />
+        <!-- leaf -->
+        <path d="M 40,40 C 20,50 5,30 15,10 C 35,5 45,20 40,40 Z" fill="none" stroke="rgba(255,255,255,0.22)"
+          stroke-width="3.5" stroke-linejoin="round" />
+        <path d="M 40,40 Q 25,22 15,10" fill="none" stroke="rgba(255,255,255,0.22)" stroke-width="2" />
+      </svg>
+
+      <svg class="bush bush-3" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+        <!-- stem -->
+        <path d="M 10,70 L 40,40" fill="none" stroke="rgba(255,255,255,0.22)" stroke-width="4" stroke-linecap="round" />
+        <!-- leaf -->
+        <path d="M 40,40 C 60,50 75,30 65,10 C 45,5 35,20 40,40 Z" fill="none" stroke="rgba(255,255,255,0.22)"
+          stroke-width="3.5" stroke-linejoin="round" />
+        <path d="M 40,40 Q 55,22 65,10" fill="none" stroke="rgba(255,255,255,0.22)" stroke-width="2" />
+      </svg>
+
+      <svg class="bush bush-4" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+        <!-- stem -->
+        <path d="M 30,100 Q 80,70 60,20" fill="none" stroke="rgba(255,255,255,0.22)" stroke-width="4.5"
+          stroke-linecap="round" />
+        <!-- leaf 1 -->
+        <path d="M 52,80 C 20,85 10,65 35,55 C 50,60 55,75 52,80 Z" fill="none" stroke="rgba(255,255,255,0.22)"
+          stroke-width="3.5" stroke-linejoin="round" />
+        <path d="M 52,80 Q 38,70 35,55" fill="none" stroke="rgba(255,255,255,0.22)" stroke-width="2" />
+        <!-- leaf 2 -->
+        <path d="M 68,55 C 95,60 105,40 80,30 C 65,35 65,50 68,55 Z" fill="none" stroke="rgba(255,255,255,0.22)"
+          stroke-width="3.5" stroke-linejoin="round" />
+        <path d="M 68,55 Q 78,42 80,30" fill="none" stroke="rgba(255,255,255,0.22)" stroke-width="2" />
+        <!-- leaf 3 (tip) -->
+        <path d="M 60,20 C 50,-10 70,-20 80,-10 C 90,10 75,20 60,20 Z" fill="none" stroke="rgba(255,255,255,0.22)"
+          stroke-width="3.5" stroke-linejoin="round" />
+        <path d="M 60,20 Q 70,0 80,-10" fill="none" stroke="rgba(255,255,255,0.22)" stroke-width="2" />
+      </svg>
+    </div>
+
+    <!-- 노드 5개 -->
+    <div class="map-node" data-node="1" style="left:24%;top:35%;" tabindex="0" role="button" aria-label="교주의 스테이터스 열기">
+      <div class="stage-platform"></div>
+      <div class="node-icon node-icon-1"></div>
+      <div class="node-label">[Stage 1] 스테이터스</div>
+    </div>
+    <div class="map-node" data-node="2" style="left:26%;top:72%;" tabindex="0" role="button" aria-label="퀘스트 보드 열기">
+      <div class="stage-platform"></div>
+      <div class="node-icon node-icon-2"></div>
+      <div class="node-label">[Stage 2] 퀘스트 보드</div>
+    </div>
+    <div class="map-node" data-node="3" style="left:50%;top:32%;" tabindex="0" role="button" aria-label="대규모 레이드 열기">
+      <div class="stage-platform"></div>
+      <div class="node-icon node-icon-3"></div>
+      <div class="node-label">[Stage 3] 대규모 레이드</div>
+    </div>
+    <div class="map-node" data-node="4" style="left:74%;top:72%;" tabindex="0" role="button" aria-label="연금술 공방 열기">
+      <div class="stage-platform"></div>
+      <div class="node-icon node-icon-4"></div>
+      <div class="node-label">[Stage 4] 연금술 공방</div>
+    </div>
+    <div class="map-node" data-node="5" style="left:76%;top:35%;" tabindex="0" role="button" aria-label="스킬 트리 열기">
+      <div class="stage-platform"></div>
+      <div class="node-icon node-icon-5"></div>
+      <div class="node-label">[Stage 5] 스킬 트리</div>
+    </div>
+
+    <!-- 모달 5개 -->
+    <div class="modal-overlay" id="modal-1" role="dialog" aria-modal="true" aria-label="교주의 스테이터스">
+      <div class="modal-box">
+        <button class="modal-close" aria-label="닫기">✕</button>
+        <div class="modal-header"><span class="modal-icon">🪪</span>
+          <h2>교주의 스테이터스</h2>
+        </div>
+        <div class="modal-body" id="modal-body-1"></div>
+      </div>
+    </div>
+    <div class="modal-overlay" id="modal-2" role="dialog" aria-modal="true" aria-label="퀘스트 보드">
+      <div class="modal-box">
+        <button class="modal-close" aria-label="닫기">✕</button>
+        <div class="modal-header"><span class="modal-icon">📋</span>
+          <h2>퀘스트 보드</h2>
+        </div>
+        <div class="modal-body" id="modal-body-2"></div>
+      </div>
+    </div>
+    <div class="modal-overlay" id="modal-3" role="dialog" aria-modal="true" aria-label="대규모 레이드">
+      <div class="modal-box">
+        <button class="modal-close" aria-label="닫기">✕</button>
+        <div class="modal-body" id="modal-body-3"></div>
+      </div>
+    </div>
+    <div class="modal-overlay" id="modal-4" role="dialog" aria-modal="true" aria-label="연금술 공방">
+      <div class="modal-box">
+        <button class="modal-close" aria-label="닫기">✕</button>
+        <div class="modal-header"><span class="modal-icon">⚗️</span>
+          <h2>연금술 공방</h2>
+        </div>
+        <div class="modal-body" id="modal-body-4"></div>
+      </div>
+    </div>
+    <div class="modal-overlay" id="modal-5" role="dialog" aria-modal="true" aria-label="스킬 트리">
+      <div class="modal-box">
+        <button class="modal-close" aria-label="닫기">✕</button>
+        <div class="modal-header"><span class="modal-icon">📖</span>
+          <h2>스킬 트리 &amp; 인벤토리</h2>
+        </div>
+        <div class="modal-body" id="modal-body-5"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ MODE 2: 카드 모드 ═══ -->
+  <section id="card-mode" class="mode-section">
+    <div class="card-slider">
+      <!-- 카드들은 card.js에서 동적 생성 -->
+      <button class="card-nav-btn prev-btn" aria-label="이전 카드">◀</button>
+      <button class="card-nav-btn next-btn" aria-label="다음 카드">▶</button>
+    </div>
+    <div class="card-indicator-area">
+      <div class="card-toc"></div>
+      <div class="card-dots"></div>
+    </div>
+  </section>
+
+  <!-- ═══ MODE 3: 문서(현학적이고 지루함) 모드 ═══ -->
+  <section id="document-mode" class="mode-section scrollable-mode">
+    <div class="doc-page">
+      <!-- 콘텐츠는 document.js에서 동적 생성 -->
+    </div>
+    <button class="doc-print-btn" aria-label="인쇄">🖨️</button>
+  </section>
+
+  <!-- ═══ MODE 4: 모바일 전용 아코디언 모드 ═══ -->
+  <section id="mobile-mode" class="mode-section scrollable-mode">
+    <div class="mobile-container">
+      <header class="mobile-header">
+        <h1>조직문화 담당자 지원 포트폴리오</h1>
+        <p class="mobile-subtitle">에피드게임즈 조직문화 담당자 지원 — 좌민우</p>
+      </header>
+      <div class="accordion-container" id="mobile-accordion">
+        <!-- js/mobile.js 에서 동적으로 아코디언 항목이 삽입됨 -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ PDF 뷰어 전용 모달 ═══ -->
+  <div class="pdf-modal-overlay" id="pdf-viewer-modal" role="dialog" aria-modal="true" aria-label="PDF 문서 뷰어">
+    <div class="pdf-modal-box">
+      <button class="pdf-modal-close" aria-label="닫기">✕</button>
+      <div class="pdf-modal-body">
+        <iframe id="pdf-iframe" src="" frameborder="0" width="100%" height="100%"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══ 이미지 라이트박스 (크게 보기) ═══ -->
+  <div class="image-lightbox-overlay" id="image-lightbox" onclick="closeLightbox()">
+    <div class="lightbox-content" onclick="event.stopPropagation();">
+      <button class="lightbox-close-btn" onclick="closeLightbox()" aria-label="닫기">✕</button>
+      <img id="lightbox-img" src="" alt="확대 이미지">
+    </div>
+  </div>
+
+  <!-- ═══ 스크립트 (순서 중요: data → 모드 → 개별 로직) ═══ -->
+  <script src="js/data.js"></script>
+  <script src="js/map.js"></script>
+  <script src="js/card.js"></script>
+  <script src="js/document.js"></script>
+  <script src="js/mode.js"></script>
+  <script src="js/entrance.js"></script>
+  <script src="js/mobile.js"></script>
+</body>
+
+</html>
