@@ -60,7 +60,7 @@ const resumeData = {
             <table class="tc-profile-table">
               <tbody>
                 <tr>
-                  <th>주소(사는 곳)</th>
+                  <th>주소<br>(사는 곳)</th>
                   <td>대구광역시 달성군 다사읍</td>
                 </tr>
                 <tr>
